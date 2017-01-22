@@ -1,0 +1,23 @@
+{
+  "activateWebServer": true,
+  "activateDeploy": true,
+  "activateHtmlBuild": true,
+  "activateCssBuild": true,
+  "activateJsBuild": true,
+  "activateImgBuild": true,
+  "activateMdBuild": false,
+  "activateJasminTest": true,
+
+  "htmlSrcPath":  "./source/**/*.html",
+  "htmlDistPath": "./build",
+  "scssSrcPath":  "./source/assets/scss/**/*.{scss,sass}",
+  "cssDistPath":  "./build/assets/css",
+  "jsSrcPath":    "./source/assets/js/**/*.js",
+  "jsDistPath":   "./build/assets/js",
+  "imgSrcPath":   "./source/assets/images/**/*",
+  "imgDistPath":  "./build/assets/images/",
+  "mdSrcPath":    "./source/markdown/**/*.md",
+  "mdDistPath":   "./build/markdown",
+  "jasminePath":  "./source/spec/*.js",
+  "tasksPath":    "./tasks"
+}
